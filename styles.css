@@ -1,0 +1,69 @@
+.container {
+    width: 50%;
+    /* Set container width to 50% of screen width */
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase-field {
+    margin-bottom: 20px;
+    /* Increased margin for purchase field */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    /* Clear floats */
+}
+
+.purchase-field label {
+    display: inline-block;
+    /* Display labels inline */
+    margin-bottom: 5px;
+    margin-right: 10px;
+    /* Add space between label and input */
+    font-weight: bold;
+}
+
+.purchase-field input[type="number"] {
+    width: calc(25% - 10px);
+    /* Adjusted width for input fields */
+    display: inline-block;
+    /* Display inputs inline */
+    margin-bottom: 10px;
+    /* Margin added between input fields and labels */
+    box-sizing: border-box;
+    /* Include padding and border in width calculation */
+}
+
+.purchase-field input[type="number"]:last-child {
+    margin-right: 0;
+    /* Remove margin from the last input field */
+}
+
+button {
+    margin: 10px left;
+    margin-bottom: 25px;
+    /* Margin added to all buttons */
+}
+
+.result-cnt {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.totalQuantity-label {
+    margin-left: 25px;
+}
+
+#calculateBtn {
+    margin-left: 25px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

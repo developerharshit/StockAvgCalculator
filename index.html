@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Average Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stock Average Calculator</h1>
+        <button id="addPurchaseBtn">Add Purchase</button>
+        <button id="resetBtn">Reset</button>
+        <div class = "result-cnt">
+            <label class = 'average-label'for="average">Average Price:</label>
+            <span id="average">0</span>
+            <label class="totalQuantity-label" for="totalQuantity">Total Quantity:</label>
+            <span id="totalQuantity">0</span>
+        </div>
+        <div id="purchaseContainer">
+            <div class="purchase-field">
+                <h3>Purchase 1</h3>
+                <label for="unit1">Price:</label>
+                <input type="number" id="unit1" class="unit" placeholder="Price">
+                <label for="quantity1">Quantity:</label>
+                <input type="number" id="quantity1" class="quantity" placeholder="Quantity">
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
